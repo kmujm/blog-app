@@ -1,12 +1,12 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-import Home from "../pages/home";
-import LoginPage from "../pages/login";
-import PostsPage from "../pages/posts";
-import PostsDetail from "../pages/posts/detail";
-import PostsEdit from "../pages/posts/edit";
-import PostsNew from "../pages/posts/new";
-import ProfilePage from "../pages/profile";
-import SignupPage from "../pages/signup";
+import Home from "pages/home";
+import LoginPage from "pages/login";
+import PostsPage from "pages/posts";
+import PostsDetail from "pages/posts/detail";
+import PostsEdit from "pages/posts/edit";
+import PostsNew from "pages/posts/new";
+import ProfilePage from "pages/profile";
+import SignupPage from "pages/signup";
 
 export default function Router() {
   return (
