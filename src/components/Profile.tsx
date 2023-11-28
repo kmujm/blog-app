@@ -4,7 +4,7 @@ export default function Profile() {
   return (
     <>
       <div className="profile__box">
-        <div className="flex__box-lg">
+        <div className="flex__box--lg">
           <div className="profile__image" />
           <div>
             <div className="profile__email">test@test.com</div>
