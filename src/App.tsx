@@ -1,4 +1,4 @@
-import { app } from "firebaseApp";
+import { app, db } from "firebaseApp";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 import Router from "./components/Router";
